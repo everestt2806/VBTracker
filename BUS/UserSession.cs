@@ -16,6 +16,7 @@ namespace VBTracker.BUS
         public DateTime LoginTime { get; private set; }
 
         private UserSession() { }
+        public static UserSession CurrentUser => Instance;
 
         public static UserSession Instance
         {
