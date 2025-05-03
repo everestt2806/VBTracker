@@ -1,6 +1,7 @@
 using System;
 using System.Windows.Forms;
 using VBTracker;
+using VBTracker.GUI.Auth;
 
 namespace VBTracker.GUI
 {
@@ -14,7 +15,7 @@ namespace VBTracker.GUI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainForm());
+            Application.Run(new LoginForm());
         }
     }
 }

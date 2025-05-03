@@ -1,6 +1,6 @@
-﻿namespace VBTracker.GUI
+﻿namespace VBTracker.GUI.StudentArea
 {
-    partial class MainForm
+    partial class StudentMainForm
     {
         /// <summary>
         /// Required designer variable.
@@ -27,7 +27,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StudentMainForm));
             menu = new Panel();
             bill_generate = new FontAwesome.Sharp.IconButton();
             menu_placeorder = new FontAwesome.Sharp.IconButton();

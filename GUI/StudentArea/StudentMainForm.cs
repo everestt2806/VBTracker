@@ -13,15 +13,15 @@ using Color = System.Drawing.Color;
 using VBTracker.GUI;
 
 
-namespace VBTracker.GUI
+namespace VBTracker.GUI.StudentArea
 {
-    public partial class MainForm : Form
+    public partial class StudentMainForm : Form
     {
         private IconButton currentBtn;
         private Panel leftBorderBtn;
         private Form currentForm;
         public static Color leftBorderColor = Color.FromArgb(49, 24, 96);
-        public MainForm()
+        public StudentMainForm()
         {
             InitializeComponent();
         }
